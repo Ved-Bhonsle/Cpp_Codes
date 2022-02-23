@@ -200,29 +200,5 @@ char choice;
 		}
 	}
 
-
-
-/*
-	complex c4;
-	cout << endl << "Overloading + operator" << endl;
-	c4 = c1 + c2;  // This is one way of using overloaded operator
-	c4.Display();
-
-	complex c5;
-	c5 = c4.operator + (c2); // Another way of using overloaded operator
-	c5.Display();
-
-	c4 = c1 - c2;  
-	cout << endl <<"Overloading - operator" << endl;
-	c4.Display();
-
-	c4 = c1 * c2;  
-	cout << endl << "Overloading * operator" << endl;
-	c4.Display();
-
-	c4 = c1/c2;  
-	cout << endl << "Overloading / operator" << endl;
-	c4.Display();
-*/
 	return 0;
 }
