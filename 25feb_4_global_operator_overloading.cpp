@@ -49,7 +49,7 @@ class location
 		}
 
 		friend void * operator new(size_t byte);  // overloading new operator
-		friend void operator delete(void *ptr); // overloading new operator
+		friend void operator delete(void *ptr); // overloading delete operator
 };
 
 int main()
